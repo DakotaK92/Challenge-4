@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coding Quiz</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Coding Quiz</h1>
+        <h3>Time Left: <span id="timeLeft">75</span></h3>
+    </header>
+
+    <div class="container">
+        <section id="start">
+            <p>Welcome to the Coding Quiz! Press "Start Quiz" to Begin!</p>
+            <button id="btnStartQuiz">Start Quiz</button>
+        </section>
+    
+        <section id="quiz">
+            <div id="question-text"></div>
+            <ul id="question-answers"></ul>
+        </section>
+    </div>
+    <div class="container2">
+        <section id="submit">
+            <p>Record your grade!</p>
+            <input type="firstname" id="firstname" class="form-control" placeholder="Enter your name...">
+            <input type="lastname" id="lastname" class="form-control" placeholder="Enter your lastname...">
+            <button id="btnSubmitAnswers">Submit</button>
+        </section>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
